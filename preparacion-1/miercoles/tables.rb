@@ -1,0 +1,1 @@
+def multiplication_tables(number)
