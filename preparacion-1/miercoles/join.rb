@@ -1,10 +1,12 @@
 def join_arrays(parametro_1, parametro_2)
-  parametro_1.each do |array1|
-  parametro_2.each do |array2|
-  parametro_1 + parametro_2
-  end
-end
- parametro_1 + parametro_2
+  array3 = Array.new
+   parametro_1.each do |array1|
+   array3 << array1
+   end
+   parametro_2.each do |array2|
+   array3 << array2
+   end
+array3.sort
 end
 
 # Pruebas
