@@ -1,5 +1,5 @@
 def char
-  chars = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"].join(", ")
+  ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"].join(", ")
 end
 
 #test
