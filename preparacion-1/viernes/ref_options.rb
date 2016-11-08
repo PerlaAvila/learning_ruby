@@ -1,5 +1,5 @@
 def option(if_this_is_a_true_value, then_the_result_is_this, else_it_is_this)
-  if if_this_is_a_true_value then then_the_result_is_this else else_it_is_this end
+  if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this 
 end
 
 #test

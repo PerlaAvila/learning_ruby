@@ -1,6 +1,6 @@
-def check(dato1, dato2)
- return "true" if dato1 || dato2 == dato2 && dato2 else "false"
+def check?
+  (true || false == true && false)? "true" : "false"
 end
 
 #test
-p check(54, 65) == "true"
+p check? == "true" 
