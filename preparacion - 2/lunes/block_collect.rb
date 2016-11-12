@@ -1,8 +1,6 @@
 def numbers(list)
   list.collect do |num|
-    num * 2
-  proc = Proc.new {num}
-  proc.call
+    num * 2 / 2
   end
 end
 
